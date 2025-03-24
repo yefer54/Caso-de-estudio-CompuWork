@@ -1,51 +1,16 @@
-
 package compuwork;
 
+public class CompuWork {
 
-public class ReporteDesempeño {
+    public static void main(String[] args) {
+        
+        Empleado E1 = new Empleado("Andres Felipe", 25, 1088536728);
+        Empleado E2 = new Empleado("Miguel Angel", 34, 1088564352);
+        Empleado E3 = new Empleado("Maria Elena", 27, 1088635427);
+        System.out.println(E1.toString());
+        System.out.println(E2.toString());
+        System.out.println(E3.toString());
+
+    }
     
-    private String nombreEmpleado;
-    private int idEmpleado;
-    private String departamentoEmpleado;
-    private String reporteDesempeño;
-
-    public ReporteDesempeño(String nombreEmpleado, int idEmpleado, String departamentoEmpleado, String reporteDesempeño) {
-        this.nombreEmpleado = nombreEmpleado;
-        this.idEmpleado = idEmpleado;
-        this.departamentoEmpleado = departamentoEmpleado;
-        this.reporteDesempeño = reporteDesempeño;
-    }
-
-    public String getNombreEmpleado() {
-        return nombreEmpleado;
-    }
-
-    public void setNombreEmpleado(String nombreEmpleado) {
-        this.nombreEmpleado = nombreEmpleado;
-    }
-
-    public int getIdEmpleado() {
-        return idEmpleado;
-    }
-
-    public void setIdEmpleado(int idEmpleado) {
-        this.idEmpleado = idEmpleado;
-    }
-
-    public String getDepartamentoEmpleado() {
-        return departamentoEmpleado;
-    }
-
-    public void setDepartamentoEmpleado(String departamentoEmpleado) {
-        this.departamentoEmpleado = departamentoEmpleado;
-    }
-
-    public String getReporteDesempeño() {
-        return reporteDesempeño;
-    }
-
-    public void setReporteDesempeño(String reporteDesempeño) {
-        this.reporteDesempeño = reporteDesempeño;
-    }
-
 }
